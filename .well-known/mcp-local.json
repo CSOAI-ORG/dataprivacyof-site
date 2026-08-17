@@ -1,0 +1,31 @@
+{
+  "schema_version": "2025-06",
+  "publisher": {
+    "name": "CSOAI Hive",
+    "legal_entity": "MEOK AI LTD",
+    "url": "https://csoai.org"
+  },
+  "site": {
+    "name": "DataPrivacyOf",
+    "domain": "dataprivacyof.ai",
+    "sector": "compliance"
+  },
+  "registry": "https://csoai.org/.well-known/mcp.json",
+  "published_mcp_servers_total": 271,
+  "servers": [
+    {
+      "name": "data-privacy-dpia-mcp",
+      "tool": "data-privacy-dpia-mcp.assess",
+      "description": "Generate or update a GDPR DPIA for an AI use case from any MCP client or workflow.",
+      "endpoint": "https://dataprivacyof.ai/mcp/data-privacy-dpia-mcp",
+      "tier": "vertical"
+    },
+    {
+      "name": "pii-detection-mcp",
+      "tool": "pii-detection-mcp.scan",
+      "description": "Detect personal data in prompts, datasets and outputs and suggest minimisation actions.",
+      "endpoint": "https://dataprivacyof.ai/mcp/pii-detection-mcp",
+      "tier": "vertical"
+    }
+  ]
+}
